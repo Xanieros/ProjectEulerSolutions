@@ -40,7 +40,7 @@ static bool isPrime(int x)
 	{
 		return true;
 	}
-	for (int i = 3; i < (x / 2); i++)
+	for (int i = 2; i < x; i++)
 	{
 		if (x % i == 0)
 		{
